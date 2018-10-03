@@ -24,7 +24,7 @@ int find_min(int size, int tab[]){
 }
   return (min);
 }
-int secondTableau(int size, int tab[]){
+int secondTableau(int size, int tab[]){ /*problème dans cette fonction*/
   int max2=tab[0];
   int a=find_max(size, tab);
   for(int i=1; i<size; i=i+1){
